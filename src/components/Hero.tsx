@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Mail, Phone, MapPin, Download, Linkedin } from "lucide-react";
+import { Mail, MapPin, Download } from "lucide-react";
 import { LuLinkedin } from "react-icons/lu";
 import profilePhoto from "@/assets/lais-crop.jpg";
 
