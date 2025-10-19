@@ -45,9 +45,6 @@ const CertificationsAndCourses = () => {
           <h2 className="text-4xl font-bold text-elegant text-center mb-4">
             Certificações & Formação Continuada
           </h2>
-          <p className="text-xl text-muted-foreground text-center mb-16">
-            Investimento constante em conhecimento e especialização técnica
-          </p>
 
           {/* Certificações */}
           <div className="mb-16">

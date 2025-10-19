@@ -33,12 +33,9 @@ const ImpactNumbers = () => {
     <section className="py-20 bg-gradient-hero">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-white text-center mb-4">
+          <h2 className="text-4xl font-bold text-white text-center mb-6">
             Impacto em Números
           </h2>
-          <p className="text-xl text-white/90 text-center mb-16">
-            Resultados concretos que demonstram excelência e eficiência
-          </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {metrics.map((metric, index) => {

@@ -44,12 +44,9 @@ const ProfessionalJourney = () => {
     <section className="py-20 bg-secondary/30">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-elegant text-center mb-4">
+          <h2 className="text-4xl font-bold text-elegant text-center mb-8">
             Trajetória Profissional
           </h2>
-          <p className="text-xl text-muted-foreground text-center mb-16">
-            Trajetória de crescimento baseada em resultados e inovação
-          </p>
 
           {/* Timeline */}
           <div className="space-y-12 mb-16">

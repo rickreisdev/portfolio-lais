@@ -33,12 +33,9 @@ const StrategicDifferentials = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-elegant text-center mb-4">
+          <h2 className="text-4xl font-bold text-elegant text-center mb-8">
             Diferenciais Estratégicos
           </h2>
-          <p className="text-xl text-muted-foreground text-center mb-16">
-            Tecnologia e estratégia aplicadas para gerar resultados excepcionais
-          </p>
 
           <div className="grid lg:grid-cols-2 gap-8">
             {differentials.map((differential, index) => {
