@@ -40,17 +40,6 @@ const ProfessionalJourney = () => {
     }
   ];
 
-  const skills = [
-    "Excel Avançado",
-    "Comunicação Estratégica", 
-    "Análise de Dados",
-    "Modelagem Financeira",
-    "Estruturação de Crédito",
-    "Automação de Processos",
-    "Inteligência Artificial",
-    "Dashboards Inteligentes"
-  ];
-
   return (
     <section className="py-20 bg-secondary/30">
       <div className="container mx-auto px-6">
@@ -115,23 +104,6 @@ const ProfessionalJourney = () => {
               );
             })}
           </div>
-
-          {/* Skills Section */}
-          <Card className="p-8 bg-gradient-card">
-            <h3 className="text-2xl font-bold text-elegant text-center mb-8">
-              Competências Técnicas
-            </h3>
-            <div className="flex flex-wrap justify-center gap-3">
-              {skills.map((skill, index) => (
-                <Badge 
-                  key={index}
-                  className="px-4 py-2 bg-professional text-white hover:bg-professional-light transition-colors duration-300"
-                >
-                  {skill}
-                </Badge>
-              ))}
-            </div>
-          </Card>
         </div>
       </div>
     </section>

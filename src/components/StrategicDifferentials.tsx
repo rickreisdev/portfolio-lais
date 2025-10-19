@@ -77,17 +77,6 @@ const StrategicDifferentials = () => {
               );
             })}
           </div>
-
-          {/* Call to Action */}
-          <Card className="mt-16 p-8 bg-gradient-hero text-white text-center">
-            <h3 className="text-2xl font-bold mb-4">
-              Inovação e Tecnologia a Serviço do Crédito
-            </h3>
-            <p className="text-lg text-white/90 leading-relaxed">
-              Unindo conhecimento técnico avançado com visão estratégica de negócios para revolucionar 
-              processos de análise de crédito através de automação inteligente e IA generativa.
-            </p>
-          </Card>
         </div>
       </div>
     </section>

@@ -79,23 +79,6 @@ const TechnologiesTools = () => {
               );
             })}
           </div>
-
-          {/* Professional Certifications Preview */}
-          <Card className="mt-16 p-8 bg-gradient-card text-center">
-            <h3 className="text-2xl font-bold text-elegant mb-4">
-              Certificações & Aprendizado Contínuo
-            </h3>
-            <p className="text-muted-foreground leading-relaxed mb-6">
-              Investimento constante em capacitação técnica e atualização com as mais 
-              recentes tendências em IA, análise de dados e automação de processos.
-            </p>
-            <div className="flex flex-wrap justify-center gap-3">
-              <Badge className="bg-professional text-white">Power BI Certified</Badge>
-              <Badge className="bg-professional text-white">Excel Expert</Badge>
-              <Badge className="bg-professional text-white">IA Generativa</Badge>
-              <Badge className="bg-professional text-white">Process Automation</Badge>
-            </div>
-          </Card>
         </div>
       </div>
     </section>

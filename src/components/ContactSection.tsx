@@ -71,7 +71,7 @@ const ContactSection = () => {
                 <LuLinkedin className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-white mb-2">LinkedIn</h3>
-              <p className="text-white/80 text-sm mb-4">Networking Profissional</p>
+              <p className="text-white/80 text-sm mb-4">Laís Amoroso</p>
               <Button 
                 onClick={handleLinkedIn}
                 className="bg-white text-professional hover:bg-white/90 w-full"

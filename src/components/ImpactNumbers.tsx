@@ -67,36 +67,6 @@ const ImpactNumbers = () => {
               );
             })}
           </div>
-
-          {/* Performance Highlights */}
-          <div className="mt-16 grid md:grid-cols-3 gap-8">
-            <Card className="p-6 bg-white/10 backdrop-blur-sm border-white/20 text-center">
-              <h4 className="text-lg font-semibold text-white mb-2">
-                Crescimento Acelerado
-              </h4>
-              <p className="text-white/80 text-sm">
-                Evolução de carreira rápida baseada em resultados excepcionais
-              </p>
-            </Card>
-            
-            <Card className="p-6 bg-white/10 backdrop-blur-sm border-white/20 text-center">
-              <h4 className="text-lg font-semibold text-white mb-2">
-                Eficiência Operacional
-              </h4>
-              <p className="text-white/80 text-sm">
-                Redução significativa de tempo em processos críticos
-              </p>
-            </Card>
-            
-            <Card className="p-6 bg-white/10 backdrop-blur-sm border-white/20 text-center">
-              <h4 className="text-lg font-semibold text-white mb-2">
-                Inovação Contínua
-              </h4>
-              <p className="text-white/80 text-sm">
-                Implementação de IA e automação em análises de crédito
-              </p>
-            </Card>
-          </div>
         </div>
       </div>
     </section>

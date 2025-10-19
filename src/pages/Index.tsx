@@ -14,11 +14,11 @@ const Index = () => {
       <Hero />
       <PersonalSummary />
       <ProfessionalJourney />
+      <CertificationsAndCourses />
       <StrategicDifferentials />
       <ImpactNumbers />
       <SectorialAnalyses />
       <TechnologiesTools />
-      <CertificationsAndCourses />
       <ContactSection />
     </div>
   );

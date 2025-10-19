@@ -2,29 +2,6 @@ import { Card } from "@/components/ui/card";
 import { Target, TrendingUp, Users, Zap } from "lucide-react";
 
 const PersonalSummary = () => {
-  const highlights = [
-    {
-      icon: Target,
-      title: "Disciplina",
-      description: "Formada através do esporte e aplicada estrategicamente nos negócios"
-    },
-    {
-      icon: Users,
-      title: "Liderança",
-      description: "Espírito natural de liderança com foco em resultados mensuráveis"
-    },
-    {
-      icon: TrendingUp,
-      title: "Dados & IA",
-      description: "Paixão por transformar dados em insights que geram impacto real"
-    },
-    {
-      icon: Zap,
-      title: "Visão de Futuro",
-      description: "Orientada por valores sólidos e inovação contínua"
-    }
-  ];
-
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-6">
@@ -35,37 +12,17 @@ const PersonalSummary = () => {
 
           <Card className="p-8 mb-12 bg-gradient-card shadow-elegant border-0">
             <p className="text-lg leading-relaxed text-foreground/90 text-center">
-              Profissional moldada pela disciplina rigorosa do esporte, onde aprendi que resultados 
-              excepcionais vêm da consistência e determinação. Essa base sólida alimenta meu espírito 
-              de liderança natural, aplicado estrategicamente no ambiente corporativo. Meu perfil 
-              analítico encontra sua expressão na paixão por dados e tecnologia, especialmente na 
-              aplicação prática de inteligência artificial para revolucionar análises de crédito. 
-              Uma trajetória de evolução de carreira acelerada e consistente, sempre orientada por 
-              inovação e resultados mensuráveis.
+              Carrego do esporte a disciplina e o foco que aplico diariamente no
+              mercado financeiro. Atuo com crédito empresarial e estratégia
+              comercial para empresas do Middle Market, unindo visão contábil,
+              dados e tecnologia para apoiar decisões mais precisas e
+              eficientes. Minha atuação envolve análise de balanços, avaliação
+              de indicadores e garantias, além de operações estruturadas de
+              acordo com o perfil e o potencial de cada empresa. Tenho uma
+              trajetória marcada por entregas consistentes, evolução acelerada e
+              compromisso com a excelência em cada projeto.
             </p>
           </Card>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {highlights.map((highlight, index) => {
-              const IconComponent = highlight.icon;
-              return (
-                <Card 
-                  key={index} 
-                  className="p-6 text-center hover:shadow-card transition-all duration-300 transform hover:-translate-y-2 border-border/50"
-                >
-                  <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center mx-auto mb-4">
-                    <IconComponent className="w-8 h-8 text-white" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-elegant mb-2">
-                    {highlight.title}
-                  </h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    {highlight.description}
-                  </p>
-                </Card>
-              );
-            })}
-          </div>
         </div>
       </div>
     </section>

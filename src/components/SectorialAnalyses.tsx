@@ -134,25 +134,6 @@ const SectorialAnalyses = () => {
               );
             })}
           </div>
-
-          {/* Call to Action */}
-          <Card className="mt-16 p-8 bg-gradient-hero text-white text-center">
-            <FileText className="w-16 h-16 mx-auto mb-4 text-white" />
-            <h3 className="text-2xl font-bold mb-4">
-              Expertise Setorial Comprovada
-            </h3>
-            <p className="text-lg text-white/90 mb-6 leading-relaxed">
-              Cada análise representa conhecimento especializado e insights estratégicos 
-              aplicados de forma prática no setor de crédito empresarial.
-            </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-professional hover:bg-white/90 transition-all duration-300"
-            >
-              <Download className="w-5 h-5 mr-2" />
-              Solicitar Portfolio de Análises
-            </Button>
-          </Card>
         </div>
       </div>
     </section>

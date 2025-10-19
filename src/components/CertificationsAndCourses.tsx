@@ -127,17 +127,6 @@ const CertificationsAndCourses = () => {
               })}
             </div>
           </div>
-
-          {/* Call to Action */}
-          <Card className="mt-16 p-8 bg-gradient-card text-center">
-            <h3 className="text-2xl font-bold text-elegant mb-4">
-              Comprometimento com a Excelência
-            </h3>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Busca contínua por conhecimento especializado e aplicação prática de metodologias 
-              avançadas para entregar resultados superiores em análise de crédito e gestão estratégica.
-            </p>
-          </Card>
         </div>
       </div>
     </section>
