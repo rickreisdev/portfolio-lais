@@ -90,7 +90,7 @@ const Hero = () => {
               Conectar no LinkedIn
             </Button>
             <Button
-              onClick={() => handleDownloadCV()}
+              onClick={handleDownloadCV}
               variant="outline"
               size="lg"
               className="bg-white text-professional hover:bg-white/90 transition-all duration-300 transform hover:scale-105"
