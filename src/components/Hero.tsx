@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Mail, MapPin, Download } from "lucide-react";
+import { Mail, MapPin, Eye } from "lucide-react";
 import { LuLinkedin } from "react-icons/lu";
 import profilePhoto from "@/assets/lais-crop.jpg";
 
@@ -23,7 +23,7 @@ const Hero = () => {
     window.open(`https://www.linkedin.com/in/laisamoroso`, '_blank');
   };
 
-  const handleDownloadCV = () => {
+  const handleViewCV = () => {
     window.open(`https://drive.google.com/file/d/1W5nanG_WWCUGgRaW7CVSZOfqCOwK4_tD/view?usp=sharing`, '_blank');
   }
 
@@ -90,13 +90,13 @@ const Hero = () => {
               Conectar no LinkedIn
             </Button>
             <Button
-              onClick={handleDownloadCV}
+              onClick={handleViewCV}
               variant="outline"
               size="lg"
               className="bg-white text-professional hover:bg-white/90 transition-all duration-300 transform hover:scale-105"
             >
-              <Download className="w-5 h-5 mr-2" />
-              Download CV
+              <Eye className="w-5 h-5 mr-2" />
+              Visualizar CV
             </Button>
           </div>
         </div>
