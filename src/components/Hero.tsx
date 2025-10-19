@@ -24,8 +24,7 @@ const Hero = () => {
   };
 
   const handleDownloadCV = () => {
-    // Placeholder - substituir pelo link real do CV
-    window.open(`/path/to/lais_amoroso_cv.pdf`, '_blank');
+    window.open(`https://drive.google.com/file/d/1W5nanG_WWCUGgRaW7CVSZOfqCOwK4_tD/view?usp=sharing`, '_blank');
   }
 
   return (
@@ -91,7 +90,7 @@ const Hero = () => {
               Conectar no LinkedIn
             </Button>
             <Button
-              onClick={() => console.log('Download CV')}
+              onClick={() => handleDownloadCV()}
               variant="outline"
               size="lg"
               className="bg-white text-professional hover:bg-white/90 transition-all duration-300 transform hover:scale-105"
